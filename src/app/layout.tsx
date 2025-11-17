@@ -8,16 +8,16 @@ const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
 
 export const metadata: Metadata = {
   title: {
-    default: 'Eiendomsanalyse - Maya Eiendom',
-    template: '%s | Maya Eiendom',
+    default: 'Eiendomsanalyse - SiO',
+    template: '%s | SiO',
   },
-  description: 'Placeanalyser og eiendomsinformasjon for Maya Eiendoms eiendommer i Oslo',
-  keywords: ['Oslo', 'eiendom', 'placeanalyse', 'Maya'],
-  authors: [{ name: 'Natural State' }, { name: 'Maya Eiendom' }],
+  description: 'Placeanalyser og eiendomsinformasjon for SiOs (Studentsamskipnaden i Oslo og Akershus) eiendomsportefølje',
+  keywords: ['Oslo', 'eiendom', 'placeanalyse', 'SiO', 'Studentsamskipnaden'],
+  authors: [{ name: 'Natural State' }, { name: 'SiO' }],
   openGraph: {
     type: 'website',
     locale: 'nb_NO',
-    siteName: 'Eiendomsanalyse - Maya Eiendom',
+    siteName: 'Eiendomsanalyse - SiO',
   },
 };
 
